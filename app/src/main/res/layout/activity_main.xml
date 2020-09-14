@@ -51,7 +51,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.801"
-        app:srcCompat="@drawable/circle_bg" />
+        app:srcCompat="@drawable/circle_bg"
+        android:onClick="previus"/>
 
     <ImageView
         android:id="@+id/imageViewIcon_previous"
@@ -73,7 +74,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.801"
-        app:srcCompat="@drawable/circle_bg" />
+        app:srcCompat="@drawable/circle_bg"
+        android:onClick="next"/>
 
     <ImageView
         android:id="@+id/imageViewIcon_next"
@@ -96,7 +98,8 @@
         app:layout_constraintStart_toEndOf="@+id/imageViewBG_previous"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.801"
-        app:srcCompat="@drawable/circle_bg" />
+        app:srcCompat="@drawable/circle_bg"
+        android:onClick="play"/>
 
     <ImageView
         android:id="@+id/imageViewIcon_play"
